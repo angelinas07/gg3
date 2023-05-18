@@ -21,7 +21,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Здесь нужно выполнить переход на следующую активность:
-                Intent intent = new Intent(SecondActivity.this, Difficulty.class);
+                Intent intent = new Intent(SecondActivity.this, DifficultyActivity.class);
                 startActivity(intent);
             }
         });
@@ -30,7 +30,7 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // Здесь нужно выполнить переход на следующую активность:
-                Intent intent = new Intent(SecondActivity.this, Difficulty.class);
+                Intent intent = new Intent(SecondActivity.this, DifficultyActivity.class);
                 startActivity(intent);
             }
         });
